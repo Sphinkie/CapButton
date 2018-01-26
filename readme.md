@@ -1,8 +1,11 @@
 # CapButton
 
 ## Description
-I create this library to read this an Arduino the tuning of an old radio of teh 50's.
+I create this library to read (with an Arduino) the tuning of an old radio of the 50's.
 On these models, the tuning button was a variable capacitor.
+
+## API
+See the API description of the methods offered by this library, in the attached file [API_description.md](API_description.md).
 
 ## Notes
 Capacité à mesurer:
