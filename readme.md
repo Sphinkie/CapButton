@@ -8,14 +8,15 @@ On these models, the tuning button was a variable capacitor.
 See the API description of the methods offered by this library, in the attached file [API_description.md](API_description.md).
 
 ## Notes
-Capacity to measure:
+_Capacity to measure_:
 * The capacity to measure is between **in_pin** (Analog) and **out_pin** (Analog)  
 
-Stray Capacity (parasite):
+_Stray Capacity (parasite)_:
 * There is a Stray Capacitance between **Pin_In** and **Ground**.
 * This Stray capacitance is always present. 
 
-* Extra capacitance can be added to allow higher capacitance to be measured.
+_Extra capacitance_:
+* An extra capacitance can be added to allow higher capacitance to be measured.
 
 
 Available on GitHub @Sphinkie/CapButton
