@@ -8,12 +8,13 @@ On these models, the tuning button was a variable capacitor.
 See the API description of the methods offered by this library, in the attached file [API_description.md](API_description.md).
 
 ## Notes
-Capacité à mesurer:
-* La capacité à mesurer est entre **in_pin** (Analog) et **out_pin** (Analog)  
+Capacity to measure:
+* The capacity to measure is between **in_pin** (Analog) and **out_pin** (Analog)  
 
-Capacité parasite (Stray):
-* Capacitance between **Pin_In** and **Ground**.
-* Stray capacitance is always present. 
+Stray Capacity (parasite):
+* There is a Stray Capacitance between **Pin_In** and **Ground**.
+* This Stray capacitance is always present. 
+
 * Extra capacitance can be added to allow higher capacitance to be measured.
 
 
