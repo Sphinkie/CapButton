@@ -1,5 +1,5 @@
 /* 
-	Exampel for CapButton library
+	Example for CapButton library
 */
 
 #include "CapButton.h"

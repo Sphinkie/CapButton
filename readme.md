@@ -4,6 +4,8 @@
 I create this library to read (with an Arduino) the tuning of an old radio of the 50's.
 On these models, the tuning button was a variable capacitor.
 
+![Capacitor](capacitor1.jpg)
+
 ## Notes
 _Capacity to measure_:
 * The capacity to measure is between **in_pin** (Analog) and **out_pin** (Analog)  
@@ -22,21 +24,21 @@ _Extra capacitance_:
 CapButton::CapButton(int in_pin, int out_pin)
 ```
 
-Contructor
+Contructor.
 
 -----
 ```c++
 void CapButton::begin()
 ```
 
-Initialisations
+Initialisations.
 
 -----
 ```c++
 int CapButton::readValue()
 ```
 
-On lit et renvoie la position de l'entrée digitale (valeur de 0 à 1023)
+On lit et renvoie la position de l'entrée digitale (valeur de 0 à 1023).
 The capacitor under test is between Pin_out and Pin_In.
 
 -----
@@ -83,3 +85,5 @@ void CapButton::dischargeCapacitor()
 ```
 
 Décharge la Capa en mettant la masse sur les deux pins.
+
+![Capacitor](capacitor2.jpg)
